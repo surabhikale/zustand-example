@@ -1,0 +1,28 @@
+.users-list {
+    list-style: none; /* Removes default bullet points */
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap; /* Allows items to wrap on smaller screens */
+    gap: 15px; /* Space between cards */
+  }
+  
+  .user-card {
+    background-color: #d31010;
+    border: 1px solid #ddd;
+    border-radius:12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 65px;
+    width: 400px; /* Fixed width for the card */
+    text-align: center; /* Center align text */
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    font-size: 2.3rem;
+    color: cyan;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .user-card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
